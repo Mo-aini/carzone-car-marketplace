@@ -1,0 +1,2 @@
+# includes are loaded by PHP only, never opened directly
+Require all denied

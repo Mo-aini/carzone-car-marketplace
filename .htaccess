@@ -1,0 +1,6 @@
+# CarZone — Apache settings
+Options -Indexes
+DirectoryIndex index.php
+<FilesMatch "\.(sql|txt|md)$">
+  Require all denied
+</FilesMatch>

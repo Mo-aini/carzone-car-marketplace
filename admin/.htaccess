@@ -1,0 +1,4 @@
+# _guard.php and _tabs.php are includes only
+<FilesMatch "^_">
+  Require all denied
+</FilesMatch>
